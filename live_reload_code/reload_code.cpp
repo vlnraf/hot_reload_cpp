@@ -4,5 +4,5 @@
  
 void CALL reload_code()
 {
-  printf("Hello, Cazzo!\n");
+  printf("Hello, World!\n");
 }

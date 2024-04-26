@@ -10,7 +10,7 @@
 
 struct ReloadableCpp
 {
-    std::wstring DLLPath;
+    std::wstring DLLPath; // it shoulw be wstring because CreateFileW accept only wstring
     std::vector<std::string> procsToLoad;
     
     HMODULE module = nullptr;
